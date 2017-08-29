@@ -1,0 +1,165 @@
+body
+{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+nav
+{
+  color: white;
+  background: #02908B;
+	height: 60px;
+}
+nav > a
+{
+  color:  #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+	left: 25px;
+	position: absolute;
+	text-align: left;
+	text-decoration: none;
+	top: 10px;
+  transition: all 0.3s lineaer;
+
+}
+nav li > a:hover,nav li >a:focus
+{
+  color: yellow;
+}
+nav ul
+{
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 0px;
+}
+nav li
+{
+  display: inline-block;
+  list-style: none;
+  padding: 0 15px;
+}
+nav li > a
+{
+
+  text-decoration: none;
+  color: white;
+}
+nav span
+{
+  color: #cfc91d;
+}
+header
+{
+
+
+  background-attachment: fixed;
+	background-image: url(../img/headerbg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 100% 50%;
+	color: #fff;
+	height: 500px;
+  padding-top:15%;
+	text-align: center;
+}
+header h2
+{
+  font-size: 36px;
+  margin: 0;
+}
+header h1
+{
+  font-size: 72px;
+  letter-spacing: 20px;
+    margin: 0;
+}
+p
+{
+  margin: 0;
+
+}
+header img
+{
+  padding: 35px 0;
+
+}
+header a
+{
+  background-color: yellow;
+  text-decoration: none;
+  padding: 10px 35px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  transition: all 0.3s ease-in-out;
+
+}
+header a:hover
+{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+#about
+{
+  text-align: center;
+}
+#about .title
+{
+  color: blue;
+  font-size: 46px;
+  font-weight: bold;
+  padding: 25px;
+  margin-bottom: 0;
+}
+#about img
+{
+padding-bottom: 10px;
+}
+#about p
+{
+  color: grey;
+  letter-spacing: 2px;
+  line-height: 200%;
+}
+#about span
+{
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+}
+#about .aboutboxes
+{
+  display: inline-block;
+  margin: 0 auto;
+  width: 80%;
+
+}
+#about .aboutbox
+{
+display: inline-block;
+float: left;
+border-right: 1px solid black;
+width: 16%;
+margin: 3% 0;
+padding: 0 4%;
+
+}
+.aboutbox h3
+{
+  font-size: 18px;
+}
+.aboutbox p
+{
+  font-weight: bold;
+  font-size: 11px;
+}
+.aboutbox i
+{
+  color: blue;
+}
+#about .aboutbox:last-child
+{
+  border: none;
+}
